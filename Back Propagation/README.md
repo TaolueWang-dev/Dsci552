@@ -11,5 +11,6 @@ I use two matrix as Hidden Layer. One is (960, 1000) and another is (1000, 1). T
 ## Formula Derivation
 Assume neuro network has L layers
 Error Function:
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 $$e = (x1^{(L)} - y)^2$$
 
