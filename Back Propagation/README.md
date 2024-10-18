@@ -9,7 +9,8 @@ I save it in matrix by using the numpy library. Then I flatten it as a vector wi
 I use two matrix as Hidden Layer. One is (960, 1000) and another is (1000, 1). The weights for the network has been initialed randomly between -0.1 to 0.1.
 
 ## Formula Derivation
-Assume neuro network has L layers
+Assume neuro network has L layers.  
 Error Function:
-$$e = \left(x1^{(L)} - y\right)^2$$
+$$e = \left(x_1^{(L)} - y\right)^2$$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
