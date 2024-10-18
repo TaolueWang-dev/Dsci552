@@ -9,5 +9,9 @@ I save it in matrix by using the numpy library. Then I flatten it as a vector wi
 I use two matrix as Hidden Layer. One is (960, 1000) and another is (1000, 1). The weights for the network has been initialed randomly between -0.1 to 0.1.
 
 ## Formula Derivation
-$\sqrt{3x-1}+(1+x)^2$
+Assume neuro network has L layers
+Error Function:
+$$
+e = (x1^{(L)} - y)^2
+$$
 
