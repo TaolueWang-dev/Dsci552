@@ -14,4 +14,7 @@ Error Function:
 ```math
 e = \left(x_1^{(L)} - y\right)^2
 ```
-Take the Derivative of the specific weight $w_{i,j}^{L}$
+Take the Derivative of the specific weight $w_{i,j}^{L}$, using chain rule. Here $S_j^{l}$ means the result of multiply by weight and haven't done the activation function. 
+```math
+\frac{\partial e}{\partial w_{i,j}^{L}} = \frac{\partial e}{\partial s_{j}^{l}} \cdot \frac{\partial s_{j}^{l}}{\partial w_{i,j}^{l}}
+```
