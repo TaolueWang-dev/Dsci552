@@ -11,7 +11,5 @@ I use two matrix as Hidden Layer. One is (960, 1000) and another is (1000, 1). T
 ## Formula Derivation
 Assume neuro network has L layers
 Error Function:
-$$
-e = (x1^{(L)} - y)^2
-$$
+$$ e = (x1^{(L)} - y)^2 $$
 
