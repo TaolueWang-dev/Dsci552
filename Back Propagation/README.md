@@ -14,4 +14,4 @@ Error Function:
 ```math
 e = \left(x_1^{(L)} - y\right)^2
 ```
-Take the Derivative of the specific weight $w_{i,j}^{l}$
+Take the Derivative of the specific weight $w_{i,j}^{L}$
