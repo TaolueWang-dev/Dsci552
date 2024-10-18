@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 
-with open('../../../../../github/Dsci552/Back Propagation/downgesture_train.list') as f:
+with open('downgesture_train.list') as f:
     lines = f.readlines()
 
 lines = [line.strip() for line in lines]
@@ -26,7 +26,7 @@ def derivative_sigmoid(x):
 def loss(x, y):
     return (y - x) ** 2
 
-
+# training part
 for x in range(100):
     for file_name in lines:
         image = Image.open(file_name)
@@ -70,8 +70,8 @@ for x in range(100):
         weights1 = weights1 - np.transpose(np.dot(delta_1, input_x))
 
 
-
-with open('../../../../../github/Dsci552/Back Propagation/downgesture_test.list') as f:
+# predict part
+with open('downgesture_test.list') as f:
     lines = f.readlines()
 
 lines = [line.strip() for line in lines]
